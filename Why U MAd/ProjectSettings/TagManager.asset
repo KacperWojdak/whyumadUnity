@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Object
   - Wall
+  - Point
   layers:
   - Default
   - TransparentFX
