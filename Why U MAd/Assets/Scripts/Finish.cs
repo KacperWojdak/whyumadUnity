@@ -4,25 +4,41 @@ public class Finish : MonoBehaviour
 {
     public int requiredPoints;
     private PointCollector pointCollector;
+    private LevelHUD levelHUD;
+    private LevelCompleteController levelCompleteController;
+    private Collider2D finishCollider;
 
     void Start()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
+        {
             pointCollector = player.GetComponent<PointCollector>();
+        }
 
-        if (pointCollector == null)
-            Debug.LogError("Nie znaleziono skryptu PointCollector na obiekcie gracza.");
+        levelHUD = Object.FindFirstObjectByType<LevelHUD>();
+        levelCompleteController = Object.FindFirstObjectByType<LevelCompleteController>();
+        finishCollider = GetComponent<Collider2D>();
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (pointCollector != null && pointCollector.pointsCollected >= requiredPoints)
-                Debug.Log("Gracz zebra³ wymagan¹ iloœæ punktów. Poziom ukoñczony!");
-            else
-                Debug.Log("Gracz nie zebra³ wymaganej iloœci punktów.");
+            Collider2D playerCollider = collision.GetComponent<Collider2D>();
+
+            if (finishCollider.bounds.Contains(playerCollider.bounds.min) &&
+                finishCollider.bounds.Contains(playerCollider.bounds.max))
+            {
+                if (pointCollector != null && pointCollector.pointsCollected >= requiredPoints)
+                {
+                    if (levelHUD != null)
+                        levelHUD.MarkLevelAsFinished();
+
+                    if (levelCompleteController != null)
+                        levelCompleteController.ShowLevelComplete();
+                }
+            }
         }
     }
 }
