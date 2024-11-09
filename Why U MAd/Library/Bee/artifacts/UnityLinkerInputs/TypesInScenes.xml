@@ -1,10 +1,12 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="CollectiblePoint" preserve="nothing"/>
+		<type fullname="Enemy" preserve="nothing"/>
 		<type fullname="Finish" preserve="nothing"/>
 		<type fullname="GlobalAudioManager" preserve="nothing"/>
 		<type fullname="LevelCompleteController" preserve="nothing"/>
 		<type fullname="LevelHUD" preserve="nothing"/>
+		<type fullname="LevelSelectionController" preserve="nothing"/>
 		<type fullname="MainMenuController" preserve="nothing"/>
 		<type fullname="MoveBetweenPoints" preserve="nothing"/>
 		<type fullname="ObjectWallBounce" preserve="nothing"/>
@@ -12,8 +14,11 @@
 		<type fullname="PlayerMovement" preserve="nothing"/>
 		<type fullname="PlayerReset" preserve="nothing"/>
 		<type fullname="PointCollector" preserve="nothing"/>
+		<type fullname="SafeZone" preserve="nothing"/>
+		<type fullname="ScaleChanger" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.2D.Animation.Runtime">
+		<type fullname="UnityEngine.U2D.Animation.BufferManager" preserve="nothing"/>
 		<type fullname="UnityEngine.U2D.Animation.DeformationManager" preserve="nothing"/>
 		<type fullname="UnityEngine.U2D.Animation.DeformationManagerUpdater" preserve="nothing"/>
 	</assembly>

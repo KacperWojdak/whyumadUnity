@@ -2,18 +2,36 @@
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
 		<type fullname="LevelCompleteController">
 			<method name="ExitToMenu"/>
+			<method name="ExitToMenu"/>
+			<method name="ExitToMenu"/>
+			<method name="ExitToMenu"/>
 			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+		</type>
+		<type fullname="LevelSelectionController">
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
 		</type>
 		<type fullname="MainMenuController">
 			<method name="CloseCredits"/>
+			<method name="CloseLevels"/>
 			<method name="CloseSettings"/>
 			<method name="ExitGame"/>
 			<method name="OpenCredits"/>
+			<method name="OpenLevels"/>
 			<method name="OpenSettings"/>
-			<method name="OpenTutorial"/>
 		</type>
 		<type fullname="PauseMenu">
 			<method name="ExitToMenu"/>
+			<method name="ExitToMenu"/>
+			<method name="ExitToMenu"/>
+			<method name="ExitToMenu"/>
+			<method name="ResumeGame"/>
+			<method name="ResumeGame"/>
+			<method name="ResumeGame"/>
 			<method name="ResumeGame"/>
 		</type>
 	</assembly>

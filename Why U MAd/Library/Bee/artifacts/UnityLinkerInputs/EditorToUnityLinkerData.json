@@ -28,9 +28,19 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Enemy",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
@@ -45,8 +55,11 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -76,14 +89,24 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "LevelHUD",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "LevelSelectionController",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -114,8 +137,11 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -131,8 +157,11 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -189,6 +218,20 @@
             "nativeClass": "RuntimeInitializeOnLoadManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SafeZone",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ScaleChanger",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -267,8 +310,11 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -312,8 +358,11 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -322,8 +371,11 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -332,8 +384,11 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -342,8 +397,11 @@
             "fullManagedTypeName": "UnityEngine.AudioClip",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -352,8 +410,11 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -362,8 +423,11 @@
             "fullManagedTypeName": "UnityEngine.AudioSource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -372,8 +436,11 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -382,7 +449,10 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity"
             ]
         },
         {
@@ -391,8 +461,11 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -401,8 +474,11 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -411,8 +487,11 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -421,7 +500,10 @@
             "fullManagedTypeName": "UnityEngine.CircleCollider2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity"
             ]
         },
         {
@@ -430,7 +512,10 @@
             "fullManagedTypeName": "UnityEngine.Collider2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity"
             ]
         },
         {
@@ -439,8 +524,11 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -456,6 +544,9 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -479,8 +570,11 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -489,8 +583,11 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -499,7 +596,10 @@
             "fullManagedTypeName": "UnityEngine.Grid",
             "moduleName": "Grid",
             "usedInScenes": [
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity"
             ]
         },
         {
@@ -508,7 +608,10 @@
             "fullManagedTypeName": "UnityEngine.GridLayout",
             "moduleName": "Grid",
             "usedInScenes": [
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity"
             ]
         },
         {
@@ -559,8 +662,11 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -569,8 +675,11 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -579,8 +688,11 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -589,8 +701,11 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -606,8 +721,11 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -616,7 +734,10 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity"
             ]
         },
         {
@@ -1038,8 +1159,11 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -1048,7 +1172,10 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity"
             ]
         },
         {
@@ -1057,8 +1184,11 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -1067,8 +1197,11 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -1077,7 +1210,10 @@
             "fullManagedTypeName": "UnityEngine.SpriteRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity"
             ]
         },
         {
@@ -1086,8 +1222,11 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -1096,8 +1235,11 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -1106,8 +1248,11 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -1123,7 +1268,10 @@
             "fullManagedTypeName": "UnityEngine.Tilemaps.Tilemap",
             "moduleName": "Tilemap",
             "usedInScenes": [
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity"
             ]
         },
         {
@@ -1132,7 +1280,10 @@
             "fullManagedTypeName": "UnityEngine.Tilemaps.TilemapRenderer",
             "moduleName": "Tilemap",
             "usedInScenes": [
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity"
             ]
         },
         {
@@ -1141,9 +1292,19 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Tutorial.unity"
+                "Assets/Scenes/Level0.unity",
+                "Assets/Scenes/Level1.unity",
+                "Assets/Scenes/Level2.unity",
+                "Assets/Scenes/Level3.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.U2D.Animation.BufferManager",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
