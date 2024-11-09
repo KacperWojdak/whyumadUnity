@@ -55,10 +55,9 @@ public class LevelHUD : MonoBehaviour
         return deathCount;
     }
 
-    public string GetFinalTime()
+    public float GetFinalTime()
     {
         float currentTime = Time.time - levelStartTime;
-        return currentTime.ToString("F2");
+        return currentTime;
     }
-
 }

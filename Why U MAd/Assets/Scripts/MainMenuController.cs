@@ -1,11 +1,12 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
 {
     public GameObject settingsPanel;
     public GameObject creditsPanel;
+    public GameObject levelSelectionPanel;
+    public GameObject mainMenuPanel;
     public Slider volumeSlider;
     private GlobalAudioManager globalAudioManager;
 
@@ -19,11 +20,18 @@ public class MainMenuController : MonoBehaviour
             volumeSlider.value = savedVolume;
             volumeSlider.onValueChanged.AddListener(SetVolume);
         }
+
+        levelSelectionPanel.SetActive(false);
     }
 
-    public void PlayGame()
+    public void OpenLevels()
     {
-        SceneManager.LoadScene("Level1");
+        levelSelectionPanel.SetActive(true);
+    }
+
+    public void CloseLevels()
+    {
+        levelSelectionPanel.SetActive(false);
     }
 
     public void OpenSettings()
@@ -34,11 +42,6 @@ public class MainMenuController : MonoBehaviour
     public void CloseSettings()
     {
         settingsPanel.SetActive(false);
-    }
-
-    public void OpenTutorial()
-    {
-        SceneManager.LoadScene("Tutorial");
     }
 
     public void OpenCredits()

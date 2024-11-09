@@ -448,6 +448,7 @@
 "Assets/Scripts/GlobalAudioManager.cs"
 "Assets/Scripts/LevelCompleteController.cs"
 "Assets/Scripts/LevelHUD.cs"
+"Assets/Scripts/LevelSelectionController.cs"
 "Assets/Scripts/MainMenuController.cs"
 "Assets/Scripts/ObjectPointsMovement.cs"
 "Assets/Scripts/ObjectWallBounce.cs"

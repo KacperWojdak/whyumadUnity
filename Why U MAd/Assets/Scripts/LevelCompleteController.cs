@@ -16,23 +16,6 @@ public class LevelCompleteController : MonoBehaviour
         levelHUDScript = levelHUD.GetComponent<LevelHUD>();
     }
 
-    public void ShowLevelComplete()
-    {
-        Time.timeScale = 0f;
-        completePanel.SetActive(true);
-
-        if (levelHUDScript != null)
-        {
-            deathCountText.text = "" + levelHUDScript.GetDeathCount();
-            timeText.text = levelHUDScript.GetFinalTime() + "s";
-        }
-
-        if (levelHUD != null)
-        {
-            levelHUD.SetActive(false);
-        }
-    }
-
     public void LoadNextLevel()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -52,4 +35,45 @@ public class LevelCompleteController : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void ShowLevelComplete()
+    {
+        Time.timeScale = 0f;
+        completePanel.SetActive(true);
+
+        if (levelHUDScript != null)
+        {
+            int deathCount = levelHUDScript.GetDeathCount();
+            float finalTime = levelHUDScript.GetFinalTime();
+
+            deathCountText.text = "" + deathCount;
+            timeText.text = finalTime.ToString("F2") + "s";
+
+            int currentLevelIndex = SceneManager.GetActiveScene().buildIndex;
+
+            int bestDeaths = PlayerPrefs.GetInt($"Level{currentLevelIndex}_BestDeaths", int.MaxValue);
+            string bestTimeStr = PlayerPrefs.GetString($"Level{currentLevelIndex}_BestTime", "N/A");
+
+            if (!float.TryParse(bestTimeStr, out float bestTime))
+            {
+                bestTime = float.MaxValue;
+            }
+
+            if (deathCount < bestDeaths || (deathCount == bestDeaths && finalTime < bestTime))
+            {
+                PlayerPrefs.SetInt($"Level{currentLevelIndex}_BestDeaths", deathCount);
+                Debug.Log($"Saving time for Level {currentLevelIndex}: {finalTime}");
+                PlayerPrefs.SetString($"Level{currentLevelIndex}_BestTime", finalTime.ToString("F2"));
+            }
+
+            PlayerPrefs.SetInt($"Level{currentLevelIndex}_Deaths", deathCount);
+            Debug.Log($"Saving time for Level {currentLevelIndex}: {finalTime}");
+            PlayerPrefs.SetString($"Level{currentLevelIndex}_CompletionTime", finalTime.ToString("F2"));
+            PlayerPrefs.Save();
+        }
+
+        if (levelHUD != null)
+            levelHUD.SetActive(false);
+    }
+
 }
