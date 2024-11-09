@@ -21,7 +21,7 @@ public class LevelHUD : MonoBehaviour
         if (timerStarted && !levelFinished)
         {
             float currentTime = Time.time - levelStartTime;
-            timerText.text = currentTime.ToString("F2") + "s";
+            timerText.text = GetFormattedTime(currentTime);
         }
     }
 
@@ -59,5 +59,12 @@ public class LevelHUD : MonoBehaviour
     {
         float currentTime = Time.time - levelStartTime;
         return currentTime;
+    }
+
+    private string GetFormattedTime(float currentTime)
+    {
+        int minutes = Mathf.FloorToInt(currentTime / 60);
+        int seconds = Mathf.FloorToInt(currentTime % 60);
+        return $"{minutes}:{seconds:D2}";
     }
 }
